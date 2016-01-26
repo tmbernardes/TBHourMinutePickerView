@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B640168616B5568A8E17A524'
+               BlueprintIdentifier = 'C49AE7F8B91138C79D25B4AC'
                BlueprintName = 'Pods-TBHourMinutePickerView_Example'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_TBHourMinutePickerView_Example.framework'>
