@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '8.0'
-.name             = "TBHourMinutePickerView"
+s.name             = "TBHourMinutePickerView"
 s.summary          = "A subclass of UIPickerVew that make a custom control of hour and minutes selection"
 s.requires_arc = true
 
