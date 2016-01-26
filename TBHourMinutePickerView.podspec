@@ -29,7 +29,4 @@ s.framework = "UIKit"
 # 8
 s.source_files = "TBHourMinutePickerView/**/*.{swift}"
 
-# 9
-s.resources = "TBHourMinutePickerView/**/*.{png,jpeg,jpg,storyboard,xib}"
-
 end
