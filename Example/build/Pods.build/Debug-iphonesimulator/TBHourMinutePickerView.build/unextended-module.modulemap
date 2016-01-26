@@ -1,0 +1,10 @@
+framework module TBHourMinutePickerView {
+  umbrella header "TBHourMinutePickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module TBHourMinutePickerView.__Swift {
+    exclude header "TBHourMinutePickerView-Swift.h"
+}

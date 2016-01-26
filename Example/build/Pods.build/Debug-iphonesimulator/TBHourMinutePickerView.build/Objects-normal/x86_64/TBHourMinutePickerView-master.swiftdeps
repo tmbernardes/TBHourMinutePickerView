@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "7d9359c74d70964b6bc3e14a3761ac86"
+build_time: [507145254, 470822000]
+inputs:
+  "/Users/thiagoMB/Documents/Repositories/MyLibs/TBHourMinutePickerView/Pod/Classes/TBHourMinutePickerView.swift": [507145236, 0]

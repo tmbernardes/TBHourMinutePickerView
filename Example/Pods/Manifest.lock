@@ -1,0 +1,14 @@
+PODS:
+  - TBHourMinutePickerView (0.1.2)
+
+DEPENDENCIES:
+  - TBHourMinutePickerView (from `../`)
+
+EXTERNAL SOURCES:
+  TBHourMinutePickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBHourMinutePickerView: 00cd9c3a8058006cf42db734eed7e7248505094b
+
+COCOAPODS: 0.39.0

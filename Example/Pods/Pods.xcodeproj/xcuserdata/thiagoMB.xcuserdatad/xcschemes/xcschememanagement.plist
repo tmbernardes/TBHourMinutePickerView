@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TBHourMinutePickerView_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TBHourMinutePickerView_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TBHourMinutePickerView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>07002F474AA006DF2ED0E404FAFCED19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23FAEAFCDF22184CA39103C9E63E4971</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32F72C29D4163125A11DBCA285B45E01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>860F589B4246253AFAD4B22B9106BB47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B72F57310206CAB05ED0637776B2F630</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C581C4D9B542D684728681EE852DC370</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDCFC355D295AA78369516D8100118BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

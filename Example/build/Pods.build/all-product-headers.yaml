@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/thiagoMB/Documents/Repositories/MyLibs/TBHourMinutePickerView/Example/build/Debug-iphonesimulator/TBHourMinutePickerView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TBHourMinutePickerView-Swift.h",
+          'external-contents': "/Users/thiagoMB/Documents/Repositories/MyLibs/TBHourMinutePickerView/Example/build/Debug-iphonesimulator/TBHourMinutePickerView.framework/Headers/TBHourMinutePickerView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TBHourMinutePickerView-umbrella.h",
+          'external-contents': "/Users/thiagoMB/Documents/Repositories/MyLibs/TBHourMinutePickerView/Example/Pods/Target Support Files/TBHourMinutePickerView/TBHourMinutePickerView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/thiagoMB/Documents/Repositories/MyLibs/TBHourMinutePickerView/Example/build/Debug-iphonesimulator/TBHourMinutePickerView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/thiagoMB/Documents/Repositories/MyLibs/TBHourMinutePickerView/Example/build/Pods.build/Debug-iphonesimulator/TBHourMinutePickerView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

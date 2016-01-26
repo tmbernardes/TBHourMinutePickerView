@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="TBHourMinutePickerView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo" translatesAutoresizingMaskIntoConstraints="NO" id="Okf-n9-CZI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iYA-Bx-7dO" customClass="TBHourMinutePickerView" customModule="TBHourMinutePickerView">
+                                <rect key="frame" x="0.0" y="219" width="600" height="162"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hour: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCj-mC-PnT">
+                                <rect key="frame" x="214.5" y="443" width="51" height="25"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qF-z1-c6A">
+                                <rect key="frame" x="278" y="481" width="44.5" height="25"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minute:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5w-tc-6tr">
+                                <rect key="frame" x="328.5" y="443" width="63" height="25"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="iYA-Bx-7dO" secondAttribute="centerY" id="3Ys-GB-2wT"/>
+                            <constraint firstAttribute="centerX" secondItem="8qF-z1-c6A" secondAttribute="centerX" id="4YY-dW-dYa"/>
+                            <constraint firstAttribute="centerX" secondItem="iYA-Bx-7dO" secondAttribute="centerX" id="EPe-Zp-Q7X"/>
+                            <constraint firstItem="iYA-Bx-7dO" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="Eqn-cU-Vyd"/>
+                            <constraint firstItem="SCj-mC-PnT" firstAttribute="top" secondItem="iYA-Bx-7dO" secondAttribute="bottom" constant="62" id="Uaa-fm-GfY"/>
+                            <constraint firstAttribute="centerY" secondItem="Okf-n9-CZI" secondAttribute="centerY" id="eZ3-De-Lax"/>
+                            <constraint firstItem="8qF-z1-c6A" firstAttribute="top" secondItem="iYA-Bx-7dO" secondAttribute="bottom" constant="100" id="evQ-36-kDk"/>
+                            <constraint firstItem="Okf-n9-CZI" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="lOo-Nr-Z0K"/>
+                            <constraint firstAttribute="centerX" secondItem="SCj-mC-PnT" secondAttribute="centerX" constant="60" id="pib-fS-sKK"/>
+                            <constraint firstAttribute="centerX" secondItem="i5w-tc-6tr" secondAttribute="centerX" constant="-60" id="rbB-26-BH4"/>
+                            <constraint firstItem="Okf-n9-CZI" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" id="sxZ-rI-dom"/>
+                            <constraint firstAttribute="centerX" secondItem="Okf-n9-CZI" secondAttribute="centerX" id="uhT-SM-OKO"/>
+                            <constraint firstItem="i5w-tc-6tr" firstAttribute="top" secondItem="iYA-Bx-7dO" secondAttribute="bottom" constant="62" id="zxe-yx-8S4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="8qF-z1-c6A" id="QlD-AE-C4m"/>
+                        <outlet property="hourLabel" destination="SCj-mC-PnT" id="ZMs-vY-2sh"/>
+                        <outlet property="hourMinutePicker" destination="iYA-Bx-7dO" id="Y5E-7x-L0B"/>
+                        <outlet property="minuteLabel" destination="i5w-tc-6tr" id="Ebd-F4-aOg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fundo" width="375" height="667"/>
+    </resources>
+</document>
