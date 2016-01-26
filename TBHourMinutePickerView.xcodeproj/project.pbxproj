@@ -10,6 +10,10 @@
 		A40FE4241C57E3440088CCB5 /* TBHourMinutePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A40FE4231C57E3440088CCB5 /* TBHourMinutePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A40FE42B1C57E3440088CCB5 /* TBHourMinutePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40FE4201C57E3440088CCB5 /* TBHourMinutePickerView.framework */; };
 		A40FE4301C57E3440088CCB5 /* TBHourMinutePickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40FE42F1C57E3440088CCB5 /* TBHourMinutePickerViewTests.swift */; };
+		A4B8A9CB1C57E576007BB4A4 /* TBHourMinutePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8A9CA1C57E576007BB4A4 /* TBHourMinutePickerView.swift */; };
+		A4B8A9CE1C57E5B7007BB4A4 /* NSDateComponents+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8A9CD1C57E5B7007BB4A4 /* NSDateComponents+Manager.swift */; };
+		A4B8A9D01C57E5C0007BB4A4 /* NSDate+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8A9CF1C57E5C0007BB4A4 /* NSDate+Manager.swift */; };
+		A4B8A9D21C57E63A007BB4A4 /* NSArray+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8A9D11C57E63A007BB4A4 /* NSArray+Factory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		A40FE42A1C57E3440088CCB5 /* TBHourMinutePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBHourMinutePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40FE42F1C57E3440088CCB5 /* TBHourMinutePickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBHourMinutePickerViewTests.swift; sourceTree = "<group>"; };
 		A40FE4311C57E3440088CCB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B8A9CA1C57E576007BB4A4 /* TBHourMinutePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBHourMinutePickerView.swift; sourceTree = "<group>"; };
+		A4B8A9CD1C57E5B7007BB4A4 /* NSDateComponents+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDateComponents+Manager.swift"; sourceTree = "<group>"; };
+		A4B8A9CF1C57E5C0007BB4A4 /* NSDate+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Manager.swift"; sourceTree = "<group>"; };
+		A4B8A9D11C57E63A007BB4A4 /* NSArray+Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Factory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,8 @@
 		A40FE4221C57E3440088CCB5 /* TBHourMinutePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				A4B8A9CC1C57E581007BB4A4 /* Extensions */,
+				A4B8A9C91C57E525007BB4A4 /* Controllers */,
 				A40FE4231C57E3440088CCB5 /* TBHourMinutePickerView.h */,
 				A40FE4251C57E3440088CCB5 /* Info.plist */,
 			);
@@ -84,6 +94,24 @@
 				A40FE4311C57E3440088CCB5 /* Info.plist */,
 			);
 			path = TBHourMinutePickerViewTests;
+			sourceTree = "<group>";
+		};
+		A4B8A9C91C57E525007BB4A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4B8A9CA1C57E576007BB4A4 /* TBHourMinutePickerView.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A4B8A9CC1C57E581007BB4A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4B8A9CD1C57E5B7007BB4A4 /* NSDateComponents+Manager.swift */,
+				A4B8A9CF1C57E5C0007BB4A4 /* NSDate+Manager.swift */,
+				A4B8A9D11C57E63A007BB4A4 /* NSArray+Factory.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B8A9CE1C57E5B7007BB4A4 /* NSDateComponents+Manager.swift in Sources */,
+				A4B8A9CB1C57E576007BB4A4 /* TBHourMinutePickerView.swift in Sources */,
+				A4B8A9D01C57E5C0007BB4A4 /* NSDate+Manager.swift in Sources */,
+				A4B8A9D21C57E63A007BB4A4 /* NSArray+Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +340,7 @@
 		A40FE4351C57E3440088CCB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +351,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = TMB.TBHourMinutePickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		A40FE4361C57E3440088CCB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -376,6 +411,7 @@
 				A40FE4361C57E3440088CCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A40FE4371C57E3440088CCB5 /* Build configuration list for PBXNativeTarget "TBHourMinutePickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +420,7 @@
 				A40FE4391C57E3440088CCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
