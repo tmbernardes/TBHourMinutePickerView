@@ -17,7 +17,7 @@ import UIKit
 }
 
 
-public class TBHourMinutePickerView: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource {
+@objc public class TBHourMinutePickerView: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource {
     
     
     let hoursArray : [String] = NSArray.arrayWithStringsOfRange(0 ... 23)
