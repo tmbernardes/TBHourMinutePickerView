@@ -8,10 +8,12 @@
 
 extension NSArray {
     
-    static func arrayWithStringsOfRange(range: Range<Int> ) -> [String]
+    static func arrayWithStringsOfRange(_ range: Range<Int> ) -> [String]
     {
         var stringArray = [String]()
-        for i in range{
+		let newRange = [Int](range.lowerBound..<range.upperBound)
+		
+        for i in newRange{
             if i > 9{
                 stringArray.append("\(i)")
             }else{
