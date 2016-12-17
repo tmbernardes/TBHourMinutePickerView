@@ -8,7 +8,7 @@ s.summary          = "A subclass of UIPickerVew that make a custom control of ho
 s.requires_arc = true
 s.screenshots = "https://camo.githubusercontent.com/d5719d3b4fbc421ea8b6094c6ef5371d6284a06d/68747470733a2f2f7261772e6769746875622e636f6d2f74686961676f746d622f5442486f75724d696e7574655069636b6572566965772f6d61737465722f4578616d706c652f7462686f75726d696e7574657069636b65722e676966"
 # 2
-s.version          = "0.1.4"
+s.version          = "0.1.3"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
