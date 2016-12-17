@@ -6,19 +6,19 @@
 //  Copyright © 2016 TMB. All rights reserved.
 //
 
-extension NSDateComponents{
-    static func dateComponentsFrom(originalDate: NSDate) -> NSDateComponents {
-        let cal: NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
-        cal.locale = NSLocale.currentLocale()
-        let timeZone: NSTimeZone = NSTimeZone.localTimeZone()
+extension DateComponents{
+    static func dateComponentsFrom(_ originalDate: Date) -> DateComponents {
+        var cal: Calendar = Calendar(identifier: Calendar.Identifier.gregorian)
+        cal.locale = Locale.current
+        let timeZone: TimeZone = TimeZone.autoupdatingCurrent
         cal.timeZone = timeZone
-        var convertedDateComponents = NSDateComponents()
-        convertedDateComponents.timeZone = timeZone
-        if !originalDate.isEqual(nil){
-            convertedDateComponents = cal.components( [.Year, .Month, .Day, .Hour, .Minute], fromDate: originalDate)
+        var convertedDateComponents = DateComponents()
+        (convertedDateComponents as NSDateComponents).timeZone = timeZone
+        if originalDate != nil{
+            convertedDateComponents = (cal as NSCalendar).components( [.year, .month, .day, .hour, .minute], from: originalDate)
         }
         else {
-            convertedDateComponents = cal.components( [.Year, .Month, .Day, .Hour, .Minute], fromDate: NSDate())
+            convertedDateComponents = (cal as NSCalendar).components( [.year, .month, .day, .hour, .minute], from: Date())
         }
         return convertedDateComponents
     }

@@ -6,13 +6,13 @@
 //  Copyright © 2016 TMB. All rights reserved.
 //
 
-extension NSDate{
-    class func dateByComponents(dateComponents: NSDateComponents) -> NSDate {
-        let cal: NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
-        cal.locale = NSLocale.currentLocale()
-        let timeZone: NSTimeZone = NSTimeZone.localTimeZone()
+extension Date{
+    static func dateByComponents(_ dateComponents: DateComponents) -> Date {
+        var cal: Calendar = Calendar(identifier: Calendar.Identifier.gregorian)
+        cal.locale = Locale.current
+        let timeZone: TimeZone = TimeZone.autoupdatingCurrent
         cal.timeZone = timeZone
-        let date: NSDate = cal.dateFromComponents(dateComponents)!
+        let date: Date = cal.date(from: dateComponents)!
         return date
     }
     
